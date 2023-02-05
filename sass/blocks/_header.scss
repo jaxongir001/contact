@@ -1,0 +1,43 @@
+header{
+    background:#fff;
+    width: 100%;
+    position: fixed;
+    
+
+    nav {
+    
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+    
+        .nav__list {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 35%;
+    
+            &--item {
+                list-style-type: none;
+                
+            &-link {
+                text-decoration: none;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 14px;
+                /* identical to box height, or 100% */
+    
+                letter-spacing: 2px;
+    
+                color: #333136;
+                &:hover{
+                    cursor: pointer;
+                    border-bottom: 1px solid #000;
+                }
+            }
+            }
+    
+        }
+    }
+}
